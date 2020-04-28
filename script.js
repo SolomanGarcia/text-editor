@@ -46,6 +46,14 @@ function makeItalic(elem){
  */
 function makeUnderline(elem){
     //CODE GOES HERE
+    elem.classList.toggle('active');
+    let formattedText = document.getElementById('text-output');
+
+    if (formattedText.classList.contains('underline')) {
+      formattedText.classList.remove('underline');
+    } else {
+      formattedText.classList.add('underline');
+    }
 }
 
 /**
