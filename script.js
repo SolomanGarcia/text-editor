@@ -26,6 +26,8 @@ function updateText(){
  */
 function makeBold(elem){
   //CODE GOES HERE
+  elem.classList.toggle('active');
+  document.getElementById('text-output').classList.toggle('bold');
 }
 
 /**
